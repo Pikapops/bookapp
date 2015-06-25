@@ -1,0 +1,9 @@
+{
+    "name":"BookApp",
+    "main": "server.js",
+    "dependencies":{
+        "express": "latest",
+        "mongoose": "latest",
+        "node-restful": "latest"
+    }    
+}
