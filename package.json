@@ -1,9 +1,25 @@
 {
-    "name":"BookApp",
-    "main": "server.js",
-    "dependencies":{
-        "express": "latest",
-        "mongoose": "latest",
-        "node-restful": "latest"
-    }    
+  "name": "BookApp",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.0",
+    "mongoose": "^3.8.31",
+    "node-restful": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pikapops/bookapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pikapops/bookapp/issues"
+  },
+  "homepage": "https://github.com/Pikapops/bookapp"
 }

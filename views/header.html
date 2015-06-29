@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<body>
+
+
+
+<div id="content">
+
+	<div class="topContent">
+          <fieldset class="">
+		<br>
+            <label>Welcome  <%= user.user.username %></label>
+          </fieldset>
+        </div>
+        <div id="menu">
+          <fieldset class="">
+            <ul class="menu">
+              <li><label><a href="/user">
+                           <span>Edit Profile</span>
+                         </a></label></li>
+            <li><label><a href="api/book">Show Pure Book JSON</a></li>
+              <li><label><a href="/profile">Show Books</a></li>
+              <li><label><a href="/logout">
+                           <span>Log Out</span>
+                         </a></label></li>
+            </ul>
+          </fieldset>
+        </div>
+</div>
+</body>
+</html>
